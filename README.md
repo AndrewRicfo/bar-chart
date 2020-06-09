@@ -1,4 +1,6 @@
 # Bar Chart
+Bar chart with labels that represents 3 different types of data marked with different colors, written on ReactJS+canvas. 
+The main purpose of that component toshow the user how the data was distributed over time and provide an ability to dig deeper with click & drag time-selection feature. "From" and "to" values of time-selection are passed to the parent component and can be used to filter the data that could be represented in the table below.
 
 ## Features:
 * mouse down + drag to create a time range
