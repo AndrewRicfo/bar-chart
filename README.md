@@ -1,9 +1,20 @@
 # Bar Chart
 
-Bar chart with ability to drag-select time range. Clicking outside the time-selection removes it, drag selection to move it.
-Bars, time-selection and labels are re-rendered dynamically when chart of width is being changed (e.g. screen resize)
+## Features:
+* mouse down + drag to create a time range
+* clicking outside time range selection removes it
+* click & drag time-selection to move it inside a chart
+* X-axis labels are rendered dynamically: their number depends on width of chart and also data size (the number of horizontal labels <= time diff in minutes between MIN and MAX time from data entries, since the label format doesn't contain seconds)
+* as well as labels, bars and time-selection also depend on width of the chart and rendered dynamically when you change the size the screen
+
+
+## Pic. 1: Chart without time-selection
 ![graph](/screenshots/no-selection-big.png)
+
+## Pic. 2: Chart with time-selection
 ![graph](/screenshots/with-selection-big.png)
+
+## Pic.3: Chart with the same selection as on Pic.2 but on lower screen-size
 ![graph](/screenshots/with-selection.png)
 
 ------
